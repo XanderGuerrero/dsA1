@@ -1,0 +1,10 @@
+DS Assignment #1 Bug List
+
+1 - The program cannot handle argument directories with spaces in the name.
+2 - The program skips directories with spaces in the name so no file names are retrieved
+3 - The program will only extract 3 strings from the file name.  
+4 - If the file name is not in the format artist-songtitle-mp3, the display formatting is
+    Off.  (ex. will show: 04 b 52's as opposed to b-52's rocklobster mp3
+5 - The program cannot load the data into the structure without overwriting the previous entries
+6 - The program displays the same entry on the list when displayed
+7 - The Program does not get the last file found in every directory.
